@@ -98,12 +98,12 @@ html {
 }
 
 .max-1400{
-  max-width:1500px;
+  max-width:1150px;
   margin: 0 auto;
 }
 
 .max-1600{
-  max-width:1500px;
+  max-width:1200px;
   margin: 0 auto;
 }
 
@@ -112,7 +112,7 @@ html {
   border-style:solid ;
   border-color: rgb(0, 0, 0); 
   font-size: 18px;
-  height: 630px;
+  height: auto;
   }
 .border-style2 {
     border-width: 1px; 
@@ -127,11 +127,16 @@ table{
 
 }
 
-th{
-  width:30vw;
-  height:50px;
-  text-align:left;
-  padding-left: 50px;
+.label-text1{
+  padding-left: 95px;
+}
+
+.label-text2{
+  padding-left: 110px;
+}
+
+.label-text3{
+  padding-left: 80px;
 }
 
 td{
@@ -140,3 +145,26 @@ td{
   text-align:center;
   transition: all 0.3s ease-in-out;
 }
+
+.box-3{
+  width: 160px;
+  max-width:  160px;
+  display:  table;
+  }
+.box-3 .text{
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  }
+
+  .box-4{
+    width: 160px;
+    max-width:  160px;
+    display:  table;
+    }
+  .box-4 .text{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    }
+  
