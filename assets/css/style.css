@@ -138,33 +138,3 @@ table{
 .label-text3{
   padding-left: 80px;
 }
-
-td{
-  width:25vw;
-  height:50px;
-  text-align:center;
-  transition: all 0.3s ease-in-out;
-}
-
-.box-3{
-  width: 160px;
-  max-width:  160px;
-  display:  table;
-  }
-.box-3 .text{
-  display:table-cell;
-  vertical-align:middle;
-  text-align:center;
-  }
-
-  .box-4{
-    width: 160px;
-    max-width:  160px;
-    display:  table;
-    }
-  .box-4 .text{
-    display:table-cell;
-    vertical-align:middle;
-    text-align:center;
-    }
-  
